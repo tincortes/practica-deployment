@@ -16,13 +16,9 @@
           rel="stylesheet">
 
     @vite(['resources/css/portfolio.css', 'resources/js/portfolio.js'])
-
-    @stack('styles')
 </head>
 
 <body>
-
     @yield('content')
-
 </body>
 </html>
