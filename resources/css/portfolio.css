@@ -1037,4 +1037,10 @@ h3 {
         left: 24px;
         right: 24px;
     }
+    .portfolio {
+    display: block;
+    width: 90%;
+    margin: 2rem auto;
+}
+
 }
