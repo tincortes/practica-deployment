@@ -1080,5 +1080,11 @@ h3 {
 .nav-links a:hover {
     background: var(--orange);
 }
+.nav-links {
+    margin: 2rem auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
 
 }
