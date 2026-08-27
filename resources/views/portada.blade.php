@@ -39,10 +39,10 @@
 
         <!-- Botones de navegación multipágina -->
         <nav class="nav-links">
-            <a href="/about">Sobre mí</a>
-            <a href="/projects">Proyectos</a>
-            <a href="/contact">Contacto</a>
-        </nav>
+    <a href="{{ url('/about') }}">Sobre mí</a>
+    <a href="{{ url('/projects') }}">Proyectos</a>
+    <a href="{{ url('/contact') }}">Contacto</a>
+</nav>
 
     </section>
 
