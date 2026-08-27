@@ -1060,5 +1060,25 @@ h3 {
 .nav-links a:hover {
     background: var(--orange);
 }
+.nav-links {
+    margin-top: 2rem;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.nav-links a {
+    padding: 10px 18px;
+    border-radius: 8px;
+    background: var(--blue);
+    color: var(--surface);
+    font-weight: 600;
+    transition: background 0.3s ease;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    background: var(--orange);
+}
 
 }
