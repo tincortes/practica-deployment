@@ -15,12 +15,8 @@
             <span>& WEB DEVELOPMENT</span>
         </div>
 
-        <div class="decor-star star-one">✦</div>
-
         <div class="cover-title">
-            <span>PORT</span>
-            <span>FO</span>
-            <span>LIO</span>
+            <span>PORT</span><span>FO</span><span>LIO</span>
         </div>
 
         <div class="cover-info">
@@ -41,12 +37,12 @@
             <span>✦</span>
         </div>
 
-        <!-- Botones de navegación -->
-        <ul>
-            <li><a href="/about">Sobre mí</a></li>
-            <li><a href="/projects">Proyectos</a></li>
-            <li><a href="/contact">Contacto</a></li>
-        </ul>
+        <!-- Botones de navegación multipágina -->
+        <nav class="nav-links">
+            <a href="/about">Sobre mí</a>
+            <a href="/projects">Proyectos</a>
+            <a href="/contact">Contacto</a>
+        </nav>
 
     </section>
 
