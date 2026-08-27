@@ -37,14 +37,14 @@
             <span>✦</span>
         </div>
 
-        
-    </section>
-<!-- Botones de navegación multipágina -->
+        <!-- Botones de navegación multipágina -->
         <nav class="nav-links">
             <a href="{{ url('/about') }}">Sobre mí</a>
             <a href="{{ url('/projects') }}">Proyectos</a>
             <a href="{{ url('/contact') }}">Contacto</a>
         </nav>
+
+    </section>
 
 </main>
 
