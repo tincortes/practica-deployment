@@ -79,10 +79,10 @@ h1, h2, h3 { font-family: var(--heading-font); }
     margin-top: 50px;
     font-family: var(--heading-font);
     color: var(--blue);
-    font-size: clamp(7rem, 13vw, 12rem);
+    font-size: clamp(6rem, 10vw, 9rem); /* más balanceado en escritorio */
     font-weight: 700;
     letter-spacing: -0.09em;
-    line-height: 0.76;
+    line-height: 0.8;
 }
 .cover-info { position: absolute; left: 48px; bottom: 105px; }
 .cover-footer {
@@ -132,4 +132,13 @@ h1, h2, h3 { font-family: var(--heading-font); }
     .cover-info { left: 24px; bottom: 50px; }
     .cover-footer { display: none; }
     .nav-links { flex-wrap: wrap; gap: 12px; }
+}
+.cover-photo {
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 48% 48% 10% 10%;
+    box-shadow: 0 8px 20px rgba(17, 17, 17, 0.15);
+    margin: 0 auto;
+    display: block;
 }

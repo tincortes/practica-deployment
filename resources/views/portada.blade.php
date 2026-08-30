@@ -16,7 +16,7 @@
         </div>
 
         <div class="cover-title">
-            <span>PORT</span><span>FO</span><span>LIO</span>
+            <span>PORTA</span><span>FO</span><span>LIO</span>
         </div>
 
         <div class="cover-info">
@@ -25,17 +25,12 @@
             <div class="cover-year">2026</div>
         </div>
 
-        <div class="cover-image">
-            <div class="image-placeholder">
-                <span>YOUR</span>
-                <strong>PHOTO</strong>
-            </div>
-        </div>
+        
 
-        <div class="cover-footer">
-            <span>Web Development · Software</span>
-            <span>✦</span>
-        </div>
+        <div class="cover-image">
+    <img src="{{ asset('storage/imagen.png') }}" alt="Foto de Martín" class="cover-photo">
+</div>
+
 
         <!-- Botones de navegación multipágina -->
         <nav class="nav-links">
