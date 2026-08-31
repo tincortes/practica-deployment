@@ -10,21 +10,23 @@
 
         <div class="section-heading projects-heading">
             <div>
-                <span class="eyebrow">03 / PORTFOLIO</span>
-                <h1>SELECTED<br><span>WORKS</span></h1>
+                <span class="eyebrow">03 / PROYECTOS</span>
+                <h1>MIS<br><span>PROYECTOS</span></h1>
                 <div class="heading-line"></div>
-                <p class="section-subtitle">Personal, university & professional projects</p>
+                <p class="section-subtitle">Proyectos personales, universitarios y profesionales</p>
             </div>
             <div class="heading-decoration">✧<br>✦</div>
         </div>
 
         <div class="projects-grid">
-            <!-- Copia aquí todos los <article class="project-card"> de tu código original -->
+            <!-- Aquí puedes colocar tus <article class="project-card"> con cada proyecto -->
         </div>
 
-        <button class="projects-button" type="button">
-            <span>✦</span> Ver todos mis proyectos <span>↗</span>
-        </button>
+        <div class="github-link">
+            <a href="https://github.com/tincortes" target="_blank" class="projects-button">
+                <span>✦</span> Ver todos mis proyectos en GitHub <span>↗</span>
+            </a>
+        </div>
 
         <div class="section-footer"><span>03</span><div></div><span>✦</span></div>
 

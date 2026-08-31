@@ -84,7 +84,9 @@ h1, h2, h3 { font-family: var(--heading-font); }
     letter-spacing: -0.09em;
     line-height: 0.8;
 }
-.cover-info { position: absolute; left: 48px; bottom: 105px; }
+.cover-info { display: flex; flex-direction: column;
+    color: var(--blue); font-size: 0.75rem;
+    font-weight: 700; letter-spacing: 0.12em; }
 .cover-footer {
     position: absolute; bottom: 28px; left: 48px; right: 48px;
     display: flex; justify-content: space-between;
@@ -143,4 +145,24 @@ h1, h2, h3 { font-family: var(--heading-font); }
     box-shadow: 0 8px 20px rgba(17, 17, 17, 0.15);
     margin: 0 auto;
     display: block;
+}
+.social-links {
+    display: flex;
+    flex-direction: column;   /* 🔹 Esto fuerza que cada link esté en una línea */
+    gap: 12px;                /* 🔹 Espacio entre cada link */
+    margin-top: 1.5rem;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    color: var(--blue);       /* color base */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: var(--orange);     /* 🔹 Aquí aplicas el naranja */
 }
