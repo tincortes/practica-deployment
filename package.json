@@ -3,10 +3,10 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vite build",
-        "dev": "vite",
-         "heroku-postbuild": "npm run build"
-    },
+    "dev": "vite",
+    "build": "vite build",
+    "heroku-postbuild": "npm run build"
+  },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
         "axios": "^1.11.0",
