@@ -11,5 +11,4 @@ export default defineConfig({
     build: {
         outDir: 'public/build',
     },
-    base: process.env.APP_URL ? process.env.APP_URL + '/' : '/',
 });
