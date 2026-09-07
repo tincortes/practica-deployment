@@ -15,11 +15,11 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
           rel="stylesheet">
 
-    {{-- Carga de estilos con Vite --}}
-    @vite(['resources/css/portfolio.css', 'resources/js/portfolio.js'])
+    
+  
 </head>
 
 <body>
-    @yield('content')
+     <script src="{{ asset('js/portfolio.js') }}"></script>
 </body>
 </html>
