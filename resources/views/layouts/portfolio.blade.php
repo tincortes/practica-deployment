@@ -20,6 +20,6 @@
 </head>
 
 <body>
-     <script src="{{ asset('js/portfolio.js') }}"></script>
+    <script src="{{ asset('js/portfolio.js') }}"></script>
 </body>
 </html>
