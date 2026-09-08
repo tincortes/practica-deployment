@@ -14,6 +14,7 @@
     <!-- Estilos globales -->
     <link rel="stylesheet" href="{{ asset('css/portfolio.css') }}">
 </head>
+
 <body>
     <!-- Aquí se insertará el contenido de cada vista -->
     @yield('content')
