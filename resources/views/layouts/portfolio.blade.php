@@ -12,14 +12,14 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Estilos globales -->
-    
+    <link rel="stylesheet" href="{{ asset('css/portfolio.css') }}?v={{ time() }}">
 
 </head>
-
+        
 <body>
     <!-- Aquí se insertará el contenido de cada vista -->
     @yield('content')
-<link rel="stylesheet" href="{{ asset('css/portfolio.css') }}?v={{ time() }}">
+
     <!-- Scripts globales -->
     <script src="{{ asset('js/portfolio.js') }}"></script>
 </body>
