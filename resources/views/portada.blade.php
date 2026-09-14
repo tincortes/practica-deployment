@@ -28,7 +28,7 @@
         
 
         <div class="cover-image">
-    <img src="{{ asset('/imagen.png') }}" alt="Foto de Martín" class="cover-photo">
+    <img src="{{ asset('storage/imagen.png') }}" alt="Foto de Martín" class="cover-photo">
 </div>
 
 
